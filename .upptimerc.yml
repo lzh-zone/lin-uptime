@@ -10,7 +10,7 @@ sites:
   - name: blogn
     url: https://new.lzhnb.cf
   - name: 影视
-    url: https://be.lzhpri.tk/api.php/timming/index.html?enforce=1&name=hongniu
+    url: https://be.lzhpri.tk/api.php/timming/index.html?enforce=1&name=huya
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -20,7 +20,7 @@ status-website:
   logoUrl: https://cdn.jsdelivr.net/gh/lzh-zone/pic@main/img/logo.png
   name: 小林监控
   introTitle: "小林的网站监控"
-  introMessage: <script type="text/javascript" src="https://v1.hitokoto.cn/api/?format=js&charset=utf-8"></script> <div id="hitokoto"><script>hitokoto ()</script></div>
+  introMessage: <script type="text/javascript" src="https://v1.hitokoto.cn/?format=js&charset=utf-8"></script> <div id="hitokoto"><script>hitokoto ()</script></div>
   navbar:
     - title: Status
       href: /
