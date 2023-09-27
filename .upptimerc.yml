@@ -42,7 +42,7 @@ status-website:
   logoUrl: https://cdn.jsdelivr.net/gh/lzh-zone/pic@main/img/logo.png
   name: 小林监控
   introTitle: "小林的网站监控"
-  introMessage: <script type="text/javascript" src="https://tenapi.cn/v2/yiyan/?format=js&charset=utf-8"></script> <div id="hitokoto"><script>hitokoto ()</script></div>
+  introMessage: 我们唯有踔厉奋发、笃行不怠，方能不负历史、不负时代、不负人民。
   navbar:
     - title: Status
       href: /
