@@ -10,7 +10,7 @@ sites:
   - name: blogn
     url: https://new.lzhnb.cf
   - name: 影视
-    url: https://be.lzhpri.tk/api.php/timming/index.html?enforce=1&name=huya
+    url: https://cn.lzhnb.gay
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
