@@ -10,7 +10,7 @@ sites:
   - name: blogn
     url: https://new.lzhnb.cf
   - name: 影视
-    url: https://lzhnb.now.cc
+    url: https://be.lzhpri.tk/api.php/timming/index.html?enforce=1&name=hongniu
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
@@ -19,8 +19,8 @@ status-website:
   # baseUrl: /your-repo-name
   logoUrl: https://cdn.jsdelivr.net/gh/lzh-zone/pic@main/img/logo.png
   name: 小林监控
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  introTitle: "小林的网站监控"
+  introMessage: <script type="text/javascript" src="https://v1.hitokoto.cn/api/?format=js&charset=utf-8"></script> <div id="hitokoto"><script>hitokoto ()</script></div>
   navbar:
     - title: Status
       href: /
