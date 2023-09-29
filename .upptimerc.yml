@@ -9,8 +9,16 @@ sites:
     url: https://blog.lzhnb.cf
   - name: blogn
     url: https://new.lzhnb.cf
-  - name: 影视
+  - name: 影视1
     url: https://cn.lzhnb.gay
+  - name: 影视2
+    url: https://h.lzhnb.gay
+  - name: 影视3
+    url: https://tv.mrlin.me
+  - name: 影视4
+    url: https://cn.lzh1.eu.org
+  - name: 影视5
+    url: https://lzhnb.now.cc
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
