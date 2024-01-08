@@ -12,13 +12,15 @@ sites:
   - name: 影视1
     url: https://z.lzh1.eu.org
   - name: 影视2
-    url: https://h.lzhnb.gay
-  - name: 影视3
-    url: https://tv.mrlin.me
-  - name: 影视4
     url: https://fei.lzhpri.tk
-  - name: 影视5
-    url: https://lzhnb.now.cc
+  - name: wzd.nl.eu.org1
+    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=093a8fb6e9ff09dabd984a30349bd5e2collect01
+  - name: wzd.nl.eu.org2
+    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=0a48481f0112b8fb9aacf021283a0df2collect02
+  - name: wzd.nl.eu.org3
+    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=8b1572c70defb898e69519f7abc2d36bcollect04
+  - name: wzd.nl.eu.org4
+    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=cc427cd482f68237e1b77e5f11a1e28acollect09
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
