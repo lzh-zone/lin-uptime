@@ -16,7 +16,7 @@
     "timeMonth": 589,
     "timeYear": 814,
     "dailyMinutesDown": {
-      "2024-01-08": 1290,
+      "2024-01-08": 1310,
       "2024-01-05": 2905,
       "2024-01-04": 2903,
       "2023-12-29": 2896,
@@ -197,11 +197,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/fei.lzhpri.tk.ico",
     "slug": "2",
     "status": "up",
-    "uptime": "28.31%",
-    "uptimeDay": "32.81%",
-    "uptimeWeek": "4.69%",
+    "uptime": "28.32%",
+    "uptimeDay": "34.02%",
+    "uptimeWeek": "4.86%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "28.31%",
+    "uptimeYear": "28.32%",
     "time": 815,
     "timeDay": 769,
     "timeWeek": 631,
@@ -471,19 +471,19 @@
     "url": "https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=senlinzyzanzhu13",
     "icon": "https://icons.duckduckgo.com/ip3/wzd.nl.eu.org.ico",
     "slug": "wzd-nl-eu-org12",
-    "status": "up",
-    "uptime": "0.88%",
-    "uptimeDay": "0.88%",
-    "uptimeWeek": "0.88%",
-    "uptimeMonth": "0.88%",
-    "uptimeYear": "0.88%",
+    "status": "down",
+    "uptime": "3.99%",
+    "uptimeDay": "3.99%",
+    "uptimeWeek": "3.99%",
+    "uptimeMonth": "3.99%",
+    "uptimeYear": "3.99%",
     "time": 20403,
     "timeDay": 20403,
     "timeWeek": 20403,
     "timeMonth": 20403,
     "timeYear": 20403,
     "dailyMinutesDown": {
-      "2024-01-08": 454
+      "2024-01-08": 456
     }
   },
   {
@@ -582,18 +582,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/netflix.nl.eu.org.ico",
     "slug": "netflix-nl-eu-org6",
     "status": "down",
-    "uptime": "2.73%",
-    "uptimeDay": "2.73%",
-    "uptimeWeek": "2.73%",
-    "uptimeMonth": "2.73%",
-    "uptimeYear": "2.73%",
+    "uptime": "2.63%",
+    "uptimeDay": "2.63%",
+    "uptimeWeek": "2.63%",
+    "uptimeMonth": "2.63%",
+    "uptimeYear": "2.63%",
     "time": 28272,
     "timeDay": 28272,
     "timeWeek": 28272,
     "timeMonth": 28272,
     "timeYear": 28272,
     "dailyMinutesDown": {
-      "2024-01-08": 444
+      "2024-01-08": 461
     }
   },
   {
