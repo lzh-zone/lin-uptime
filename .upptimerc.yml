@@ -13,45 +13,7 @@ sites:
     url: https://z.lzh1.eu.org
   - name: 影视2
     url: https://fei.lzhpri.tk
-  - name: wzd.nl.eu.org1
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=093a8fb6e9ff09dabd984a30349bd5e2collect01
-  - name: wzd.nl.eu.org2
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=0a48481f0112b8fb9aacf021283a0df2collect02
-  - name: wzd.nl.eu.org3
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=8b1572c70defb898e69519f7abc2d36bcollect04
-  - name: wzd.nl.eu.org5
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=cc427cd482f68237e1b77e5f11a1e28acollect09
-  - name: wzd.nl.eu.org6
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=5f3323ed75bfe5b68816eae2c3a7ef92collect10
-  - name: wzd.nl.eu.org7
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=5ea090f24f65a22bd9b9c8737ee53872collect12
-  - name: wzd.nl.eu.org8
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=1ced0df221b04bcb75b0f24e04e8fd10collect13
-  - name: wzd.nl.eu.org9
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=1ced0df221b04bcb75b0f24e04e8fd10collect13
-  - name: wzd.nl.eu.org10
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=45f33b701d9ec5f355ffb35e51e2a37dcollect03
-  - name: wzd.nl.eu.org11
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=bominzyzanzhu16
-  - name: wzd.nl.eu.org12
-    url: https://wzd.nl.eu.org/api.php/timming/index.html?enforce=1&name=senlinzyzanzhu13
-  - name: netflix.nl.eu.org1
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=093a8fb6e9ff09dabd984a30349bd5e2collect01
-  - name: netflix.nl.eu.org2
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=0a48481f0112b8fb9aacf021283a0df2collect02
-  - name: netflix.nl.eu.org3
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=8b1572c70defb898e69519f7abc2d36bcollect04
-  - name: netflix.nl.eu.org4
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=cc427cd482f68237e1b77e5f11a1e28acollect09
-  - name: netflix.nl.eu.org5
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=5ea090f24f65a22bd9b9c8737ee53872collect12
-  - name: netflix.nl.eu.org6
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=senlinzyzanzhu12
-  - name: netflix.nl.eu.org7
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=hgzyzanzhu18
-  - name: netflix.nl.eu.org8
-    url: https://netflix.nl.eu.org/api.php/timming/index.html?enforce=1&name=bominzyzanzhu15
-
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
