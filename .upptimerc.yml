@@ -13,6 +13,11 @@ sites:
     url: https://z.lzh1.eu.org
   - name: 影视2
     url: https://fei.lzhpri.tk
+  - name: yu1
+    url:https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=aa
+  - name: yu2
+    url:https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=bb
+    
   
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
