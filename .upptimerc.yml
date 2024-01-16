@@ -17,20 +17,9 @@ sites:
     url: https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=aa
   - name: yu2
     url: https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=bb
-  - name: free.nl.eu.org-ff
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=093a8fb6e9ff09dabd984a30349bd5e2collect01
-  - name: free.nl.eu.org-hy
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=8b1572c70defb898e69519f7abc2d36bcollect04
-  - name: free.nl.eu.org-lz
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=cc427cd482f68237e1b77e5f11a1e28acollect09
-  - name: free.nl.eu.org-hn
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=5ea090f24f65a22bd9b9c8737ee53872collect12
-  - name: free.nl.eu.org-hh
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=huohuzyzanzhu09
-  - name: free.nl.eu.org-js
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=jisuzyzanzhu14
-  - name: free.nl.eu.org-sl
-    url: https://free.nl.eu.org/api.php/timming/index.html?enforce=1&name=senlinzyzanzhu12
+  - name: free.nl.eu.org
+    url: https://free.nl.eu.org/
+
     
     
   
