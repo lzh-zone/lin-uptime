@@ -14,9 +14,9 @@ sites:
   - name: 影视2
     url: https://fei.lzhpri.tk
   - name: yu1
-    url:https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=aa
+    url: https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=aa
   - name: yu2
-    url:https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=bb
+    url: https://xiaoyuer.tv/api.php/timming/index.html?enforce=1&name=bb
     
   
 status-website:
