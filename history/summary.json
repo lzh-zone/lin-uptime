@@ -6,8 +6,8 @@
     "slug": "",
     "status": "up",
     "uptime": "0.00%",
-    "uptimeDay": "90.95%",
-    "uptimeWeek": "95.72%",
+    "uptimeDay": "89.90%",
+    "uptimeWeek": "95.57%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
     "time": 774,
@@ -16,7 +16,7 @@
     "timeMonth": 578,
     "timeYear": 774,
     "dailyMinutesDown": {
-      "2024-01-16": 108,
+      "2024-01-16": 123,
       "2024-01-15": 38,
       "2024-01-14": 19,
       "2024-01-12": 56,
@@ -202,19 +202,19 @@
     "url": "https://fei.lzhpri.tk",
     "icon": "https://icons.duckduckgo.com/ip3/fei.lzhpri.tk.ico",
     "slug": "2",
-    "status": "down",
-    "uptime": "33.45%",
-    "uptimeDay": "99.97%",
-    "uptimeWeek": "99.06%",
+    "status": "up",
+    "uptime": "33.44%",
+    "uptimeDay": "99.46%",
+    "uptimeWeek": "98.99%",
     "uptimeMonth": "24.93%",
-    "uptimeYear": "33.45%",
-    "time": 794,
-    "timeDay": 893,
-    "timeWeek": 695,
-    "timeMonth": 657,
-    "timeYear": 794,
+    "uptimeYear": "33.44%",
+    "time": 792,
+    "timeDay": 817,
+    "timeWeek": 691,
+    "timeMonth": 655,
+    "timeYear": 792,
     "dailyMinutesDown": {
-      "2024-01-16": 0,
+      "2024-01-16": 8,
       "2024-01-15": 19,
       "2024-01-14": 19,
       "2024-01-12": 39,
@@ -350,7 +350,7 @@
     "timeMonth": 485,
     "timeYear": 485,
     "dailyMinutesDown": {
-      "2024-01-16": 26
+      "2024-01-16": 33
     }
   }
 ]
