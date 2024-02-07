@@ -8,7 +8,7 @@
     "uptime": "0.00%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
-    "uptimeMonth": "16.02%",
+    "uptimeMonth": "16.04%",
     "uptimeYear": "0.00%",
     "time": 714,
     "timeDay": 459,
@@ -16,7 +16,7 @@
     "timeMonth": 390,
     "timeYear": 714,
     "dailyMinutesDown": {
-      "2024-02-07": 2370,
+      "2024-02-07": 2379,
       "2024-02-04": 1455,
       "2024-01-29": 1458,
       "2024-01-26": 1487,
@@ -122,9 +122,7 @@
       "2023-10-26": 49,
       "2023-10-24": 35,
       "2023-10-22": 18,
-      "2023-10-20": 15,
-      "2023-10-18": 58,
-      "2023-10-17": 2
+      "2023-10-20": 15
     }
   },
   {
@@ -132,19 +130,19 @@
     "url": "https://blog.lzhnb.cf",
     "icon": "https://icons.duckduckgo.com/ip3/blog.lzhnb.cf.ico",
     "slug": "blog",
-    "status": "up",
-    "uptime": "99.95%",
-    "uptimeDay": "93.80%",
-    "uptimeWeek": "99.11%",
-    "uptimeMonth": "99.80%",
-    "uptimeYear": "99.95%",
+    "status": "down",
+    "uptime": "99.96%",
+    "uptimeDay": "94.41%",
+    "uptimeWeek": "99.20%",
+    "uptimeMonth": "99.82%",
+    "uptimeYear": "99.96%",
     "time": 513,
     "timeDay": 1149,
     "timeWeek": 740,
     "timeMonth": 463,
     "timeYear": 513,
     "dailyMinutesDown": {
-      "2024-02-07": 89
+      "2024-02-07": 80
     }
   },
   {
@@ -152,9 +150,9 @@
     "url": "https://new.lzhnb.cf",
     "icon": "https://icons.duckduckgo.com/ip3/new.lzhnb.cf.ico",
     "slug": "blogn",
-    "status": "up",
+    "status": "down",
     "uptime": "99.90%",
-    "uptimeDay": "86.41%",
+    "uptimeDay": "86.39%",
     "uptimeWeek": "98.06%",
     "uptimeMonth": "99.55%",
     "uptimeYear": "99.90%",
@@ -223,8 +221,8 @@
     "slug": "2",
     "status": "down",
     "uptime": "44.35%",
-    "uptimeDay": "44.17%",
-    "uptimeWeek": "91.87%",
+    "uptimeDay": "43.53%",
+    "uptimeWeek": "91.78%",
     "uptimeMonth": "96.85%",
     "uptimeYear": "44.35%",
     "time": 769,
@@ -233,7 +231,7 @@
     "timeMonth": 714,
     "timeYear": 769,
     "dailyMinutesDown": {
-      "2024-02-07": 804,
+      "2024-02-07": 813,
       "2024-02-04": 15,
       "2024-01-29": 18,
       "2024-01-26": 47,
@@ -339,7 +337,7 @@
     "timeMonth": 673,
     "timeYear": 673,
     "dailyMinutesDown": {
-      "2024-02-07": 1280,
+      "2024-02-07": 1289,
       "2024-02-06": 1440,
       "2024-02-05": 1440,
       "2024-02-04": 1440,
