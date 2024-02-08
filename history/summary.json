@@ -16,7 +16,7 @@
     "timeMonth": 396,
     "timeYear": 712,
     "dailyMinutesDown": {
-      "2024-02-08": 803,
+      "2024-02-08": 821,
       "2024-02-07": 2803,
       "2024-02-04": 1455,
       "2024-01-29": 1458,
@@ -121,7 +121,7 @@
       "2023-10-29": 1440,
       "2023-10-27": 447,
       "2023-10-26": 49,
-      "2023-10-24": 35
+      "2023-10-24": 19
     }
   },
   {
@@ -149,9 +149,9 @@
     "url": "https://new.lzhnb.cf",
     "icon": "https://icons.duckduckgo.com/ip3/new.lzhnb.cf.ico",
     "slug": "blogn",
-    "status": "up",
+    "status": "down",
     "uptime": "99.74%",
-    "uptimeDay": "64.63%",
+    "uptimeDay": "64.62%",
     "uptimeWeek": "94.95%",
     "uptimeMonth": "98.84%",
     "uptimeYear": "99.74%",
@@ -221,9 +221,9 @@
     "slug": "2",
     "status": "down",
     "uptime": "44.25%",
-    "uptimeDay": "14.23%",
-    "uptimeWeek": "87.59%",
-    "uptimeMonth": "96.66%",
+    "uptimeDay": "13.59%",
+    "uptimeWeek": "87.50%",
+    "uptimeMonth": "96.64%",
     "uptimeYear": "44.25%",
     "time": 769,
     "timeDay": 0,
@@ -231,7 +231,7 @@
     "timeMonth": 709,
     "timeYear": 769,
     "dailyMinutesDown": {
-      "2024-02-08": 271,
+      "2024-02-08": 280,
       "2024-02-07": 964,
       "2024-02-04": 15,
       "2024-01-29": 18,
@@ -338,7 +338,7 @@
     "timeMonth": 675,
     "timeYear": 675,
     "dailyMinutesDown": {
-      "2024-02-08": 271,
+      "2024-02-08": 280,
       "2024-02-07": 1440,
       "2024-02-06": 1440,
       "2024-02-05": 1440,
