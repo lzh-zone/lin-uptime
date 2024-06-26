@@ -16,7 +16,7 @@
     "timeMonth": 0,
     "timeYear": 710,
     "dailyMinutesDown": {
-      "2024-06-26": 2118,
+      "2024-06-26": 2222,
       "2024-06-25": 3287,
       "2024-06-18": 2906,
       "2024-06-15": 2938,
@@ -209,7 +209,7 @@
       "2023-11-09": 80,
       "2023-11-08": 16,
       "2023-11-06": 17,
-      "2023-11-02": 142
+      "2023-11-02": 115
     }
   },
   {
@@ -259,9 +259,9 @@
     "url": "https://z.lzh1.eu.org",
     "icon": "https://icons.duckduckgo.com/ip3/z.lzh1.eu.org.ico",
     "slug": "1",
-    "status": "up",
+    "status": "down",
     "uptime": "96.58%",
-    "uptimeDay": "68.96%",
+    "uptimeDay": "68.95%",
     "uptimeWeek": "92.35%",
     "uptimeMonth": "97.91%",
     "uptimeYear": "96.58%",
@@ -321,18 +321,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/fei.lzhpri.tk.ico",
     "slug": "2",
     "status": "down",
-    "uptime": "21.51%",
+    "uptime": "21.50%",
     "uptimeDay": "0.00%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
-    "uptimeYear": "21.51%",
+    "uptimeYear": "21.50%",
     "time": 769,
     "timeDay": 0,
     "timeWeek": 0,
     "timeMonth": 0,
     "timeYear": 769,
     "dailyMinutesDown": {
-      "2024-06-26": 877,
+      "2024-06-26": 929,
       "2024-06-25": 1440,
       "2024-06-24": 1440,
       "2024-06-23": 1440,
@@ -578,7 +578,7 @@
     "timeMonth": 1001,
     "timeYear": 780,
     "dailyMinutesDown": {
-      "2024-06-26": 878,
+      "2024-06-26": 929,
       "2024-06-25": 1440,
       "2024-06-24": 1440,
       "2024-06-23": 1440,
