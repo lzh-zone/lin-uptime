@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pan.wzz.cloudns.ch.ico",
     "slug": "pan-serv00",
     "status": "up",
-    "uptime": "29.02%",
-    "uptimeDay": "29.02%",
-    "uptimeWeek": "29.02%",
-    "uptimeMonth": "29.02%",
-    "uptimeYear": "29.02%",
+    "uptime": "29.08%",
+    "uptimeDay": "29.08%",
+    "uptimeWeek": "29.08%",
+    "uptimeMonth": "29.08%",
+    "uptimeYear": "29.08%",
     "time": 1490,
     "timeDay": 1490,
     "timeWeek": 1490,
@@ -92,7 +92,7 @@
     "timeMonth": 3212,
     "timeYear": 854,
     "dailyMinutesDown": {
-      "2024-07-02": 1433,
+      "2024-07-02": 1427,
       "2024-07-01": 3437,
       "2024-06-30": 4320,
       "2024-06-29": 4320,
@@ -284,7 +284,8 @@
       "2023-12-01": 47,
       "2023-11-27": 16,
       "2023-11-23": 42,
-      "2023-11-20": 16
+      "2023-11-20": 16,
+      "2023-11-17": 16
     }
   },
   {
@@ -293,18 +294,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/v.872888.xyz.ico",
     "slug": "fc",
     "status": "up",
-    "uptime": "1.89%",
-    "uptimeDay": "1.89%",
-    "uptimeWeek": "1.89%",
-    "uptimeMonth": "1.89%",
-    "uptimeYear": "1.89%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 69,
     "timeDay": 69,
     "timeWeek": 69,
     "timeMonth": 69,
     "timeYear": 69,
-    "dailyMinutesDown": {
-      "2024-07-02": 6
-    }
+    "dailyMinutesDown": {}
   }
 ]
