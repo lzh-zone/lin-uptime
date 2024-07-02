@@ -4,7 +4,7 @@ repo: lin-uptime # The name of this repository
 
 sites:
   - name: pan-serv00
-    url: https://xxx.wzz.cloudns.ch
+    url: https://pan.wzz.cloudns.ch
     maxResponseTime: 4000
   - name: blog
     url: https://blog.lzhnb.cf
