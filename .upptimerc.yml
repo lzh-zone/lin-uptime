@@ -12,10 +12,13 @@ sites:
     url: https://memo.010702.xyz
   - name: 0702影院
     url: https://0702.rr.nu/
+    maxResponseTime: 8000
   - name: 毒蛇影院
     url: https://ds.872888.xyz/
+    maxResponseTime: 8000
   - name: 珊瑚影院
     url: https://tv.872888.xyz/
+    maxResponseTime: 8000
 
     
     
