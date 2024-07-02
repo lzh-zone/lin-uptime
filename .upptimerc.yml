@@ -6,9 +6,9 @@ sites:
   - name: pan-serv00
     url: https://pan.wzz.cloudns.ch
     maxResponseTime: 4000
-  - name: 博客|blog
+  - name: blog
     url: https://010702.xyz
-  - name: 日志备忘录|memo
+  - name: memo
     url: https://memo.010702.xyz
   - name: 0702影院
     url: https://0702.rr.nu/
@@ -16,8 +16,12 @@ sites:
   - name: 毒蛇影院
     url: https://ds.872888.xyz/
     maxResponseTime: 8000
-  - name: 珊瑚影院
-    url: https://tv.872888.xyz/
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
+  - name: FC影院
+    url: https://v.872888.xyz/
     maxResponseTime: 8000
 
     
