@@ -7,7 +7,7 @@ sites:
     url: https://pan.wzz.cloudns.ch
     maxResponseTime: 4000
   - name: 博客|blog
-    url: https://blog.010702.xyz
+    url: https://010702.xyz
   - name: 日志备忘录|memo
     url: https://memo.010702.xyz
   - name: 0702影院
