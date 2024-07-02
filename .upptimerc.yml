@@ -23,7 +23,10 @@ sites:
   - name: FC影院
     url: https://v.872888.xyz/
     maxResponseTime: 8000
-
+    expectedStatusCodes:
+      - 200
+      - 201
+      - 403
     
     
   
