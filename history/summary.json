@@ -5,11 +5,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/pan.wzz.cloudns.ch.ico",
     "slug": "pan-serv00",
     "status": "up",
-    "uptime": "95.53%",
+    "uptime": "96.19%",
     "uptimeDay": "100.00%",
-    "uptimeWeek": "95.53%",
-    "uptimeMonth": "95.53%",
-    "uptimeYear": "95.53%",
+    "uptimeWeek": "96.19%",
+    "uptimeMonth": "96.19%",
+    "uptimeYear": "96.19%",
     "time": 1518,
     "timeDay": 2106,
     "timeWeek": 1518,
@@ -44,18 +44,20 @@
     "url": "https://memo.010702.xyz",
     "icon": "https://icons.duckduckgo.com/ip3/memo.010702.xyz.ico",
     "slug": "memo",
-    "status": "up",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "down",
+    "uptime": "99.99%",
+    "uptimeDay": "99.98%",
+    "uptimeWeek": "99.99%",
+    "uptimeMonth": "99.99%",
+    "uptimeYear": "99.99%",
     "time": 816,
     "timeDay": 760,
     "timeWeek": 816,
     "timeMonth": 816,
     "timeYear": 816,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2024-07-04": 0
+    }
   },
   {
     "name": "0702影院",
@@ -82,7 +84,7 @@
     "slug": "",
     "status": "up",
     "uptime": "0.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.98%",
     "uptimeWeek": "0.00%",
     "uptimeMonth": "0.00%",
     "uptimeYear": "0.00%",
@@ -92,6 +94,7 @@
     "timeMonth": 3441,
     "timeYear": 897,
     "dailyMinutesDown": {
+      "2024-07-04": 0,
       "2024-07-02": 1427,
       "2024-07-01": 3437,
       "2024-06-30": 4320,
@@ -284,8 +287,7 @@
       "2023-12-01": 47,
       "2023-11-27": 16,
       "2023-11-23": 42,
-      "2023-11-20": 16,
-      "2023-11-17": 16
+      "2023-11-20": 16
     }
   },
   {
