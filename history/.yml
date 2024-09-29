@@ -1,7 +1,7 @@
 url: https://ds.872888.xyz/
-status: down
-code: 525
-responseTime: 5888
-lastUpdated: 2024-09-29T08:40:47.235Z
+status: degraded
+code: 409
+responseTime: 12936
+lastUpdated: 2024-09-29T09:58:00.388Z
 startTime: 2024-07-02T10:58:55.814Z
 generator: Upptime <https://github.com/upptime/upptime>
