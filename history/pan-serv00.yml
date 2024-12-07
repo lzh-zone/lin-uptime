@@ -1,7 +1,7 @@
 url: https://cloud.010702.xyz/
-status: down
-code: 403
-responseTime: 244
-lastUpdated: 2024-12-06T23:18:21.494Z
+status: degraded
+code: 520
+responseTime: 22317
+lastUpdated: 2024-12-07T22:36:16.040Z
 startTime: 2024-07-02T08:51:50.730Z
 generator: Upptime <https://github.com/upptime/upptime>
