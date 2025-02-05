@@ -1,7 +1,7 @@
 url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=bash%20/home/aggwrfr/.npm-global/bin/pm2%20resurrect%20%3E%20/dev/null%202%3E&1&timeInterval=30
-status: down
-code: 0
-responseTime: 0
-lastUpdated: 2025-02-05T22:38:27.068Z
+status: up
+code: 200
+responseTime: 186
+lastUpdated: 2025-02-05T23:13:17.845Z
 startTime: 2025-02-05T08:27:35.573Z
 generator: Upptime <https://github.com/upptime/upptime>
