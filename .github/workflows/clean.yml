@@ -1,36 +1,38 @@
-name: Delete Old Workflow Runs
+name: Cleanup Workflows
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天午夜运行
+    - cron: '0 0 * * *'  # 每天0点执行一次清理任务
   workflow_dispatch: # 允许手动触发
 
 jobs:
-  delete-old-runs:
+  cleanup:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Delete old workflow runs
-        env:
-          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+      - name: Setup GitHub CLI
         run: |
-          # 获取当前时间戳（以秒为单位）
-          CURRENT_TIMESTAMP=$(date +%s)
+          curl -fsSL https://cli.github.com/packages/githubcli-archive.key | sudo tee /etc/apt/trusted.gpg.d/github.asc
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh
 
-          # 计算 30 天前的时间戳
-          THIRTY_DAYS_AGO=$(($CURRENT_TIMESTAMP - 30 * 24 * 60 * 60))
+      - name: Authenticate with GitHub CLI
+        run: gh auth login --with-token < ${{ secrets.GIT_TOKEN }}
 
-          # 获取所有 workflow runs
-          RUNS=$(curl -s -H "Authorization: token $GIT_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/runs?per_page=100")
-
-          # 遍历并删除超过 30 天的 runs
-          echo "$RUNS" | jq -r '.workflow_runs[] | select(.created_at | fromdateiso8601 < '"$THIRTY_DAYS_AGO"') | .id' | while read -r RUN_ID; do
-            echo "Deleting run ID: $RUN_ID"
-            curl -s -X DELETE -H "Authorization: token $GIT_TOKEN" \
-              -H "Accept: application/vnd.github.v3+json" \
-              "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID"
+      - name: Get workflows older than 30 days
+        run: |
+          # 获取所有工作流
+          workflows=$(gh run list --limit 1000 --json createdAt,workflowRunUrl)
+          
+          # 获取当前日期并设置时间阈值（30天前）
+          threshold=$(date -d "30 days ago" +%Y-%m-%dT%H:%M:%S)
+          
+          # 遍历工作流并删除30天前的工作流
+          echo "$workflows" | jq -r '.[] | select(.createdAt < "'$threshold'") | .workflowRunUrl' | while read url; do
+            echo "Deleting workflow: $url"
+            gh run delete --confirm "$url"
           done
+
