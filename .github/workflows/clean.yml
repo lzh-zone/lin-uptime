@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up GitHub CLI
-        uses: cli/cli@v2
+        uses: cli/cli@latest  # 使用最新版本
         with:
           version: latest
 
