@@ -1,31 +1,18 @@
-name: Clean Up Old Workflow Logs
+name: Clean Up Old Workflow Runs
 
 on:
   schedule:
     - cron: '0 0 * * *'  # 每天午夜运行
-  workflow_dispatch:  # 允许手动运行
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  cleanup_logs:
+  delete-old-runs:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Install GitHub CLI
-        run: |
-          sudo apt-get update
-          sudo apt-get install gh -y
-
-      - name: Get workflows
-        id: get_workflows
-        run: |
-          workflows=$(gh api -X GET /repos/${{ github.repository }}/actions/runs --jq '.workflow_runs[] | select(.created_at < "'$(date -d '30 days ago' --rfc-3339=seconds)'") | .id')
-          echo "workflows=$workflows" >> $GITHUB_ENV
-          echo "Found workflows: $workflows"  # 输出找到的工作流
-
-      - name: Delete old workflows
-        if: env.workflows != ''
-        run: |
-          echo "Deleting workflows: ${{ env.workflows }}"
-          for workflow_id in ${{ env.workflows }}; do
-            gh api -X DELETE /repos/${{ github.repository }}/actions/runs/$workflow_id
-            echo "Deleted workflow run $workflow_id"
-          done
+      - name: Delete workflow runs older than 30 days
+        uses: actions/delete-workflow-runs@v2
+        with:
+          retain_days: 30
+          keep_minimum_runs: 10  # 可选：保留至少5个最近的workflow runs
+          token: ${{ secrets.GIT_TOKEN }}
