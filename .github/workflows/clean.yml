@@ -18,12 +18,12 @@ jobs:
         id: get_workflows
         run: |
           workflows=$(gh api -X GET /repos/${{ github.repository }}/actions/runs --jq '.workflow_runs[] | select(.created_at < "'$(date -d '30 days ago' --rfc-3339=seconds)'") | .id')
-          echo "::set-output name=workflows::$workflows"
+          echo "workflows=$workflows" >> $GITHUB_ENV
 
       - name: Delete old workflows
-        if: steps.get_workflows.outputs.workflows != ''
+        if: env.workflows != ''
         run: |
-          for workflow_id in ${{ steps.get_workflows.outputs.workflows }}; do
+          for workflow_id in ${{ env.workflows }}; do
             gh api -X DELETE /repos/${{ github.repository }}/actions/runs/$workflow_id
             echo "Deleted workflow run $workflow_id"
           done
