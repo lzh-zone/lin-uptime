@@ -9,10 +9,10 @@ jobs:
   cleanup_logs:
     runs-on: ubuntu-latest
     steps:
-      - name: Set up GitHub CLI
-        uses: cli/cli@latest  # 使用最新版本
-        with:
-          version: latest
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install gh -y
 
       - name: Get workflows
         id: get_workflows
