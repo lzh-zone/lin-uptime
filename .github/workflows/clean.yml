@@ -12,15 +12,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup GitHub CLI
+      - name: Install GitHub CLI manually
         run: |
-          curl -fsSL https://cli.github.com/packages/githubcli-archive.key | sudo tee /etc/apt/trusted.gpg.d/github.asc
-          sudo apt-add-repository https://cli.github.com/packages
-          sudo apt update
-          sudo apt install gh
+          curl -fsSL https://github.com/cli/cli/releases/latest/download/gh_2.27.0_linux_amd64.deb -o gh.deb
+          sudo dpkg -i gh.deb
+          sudo apt-get install -f  # 安装任何缺失的依赖
 
       - name: Authenticate with GitHub CLI
-        run: gh auth login --with-token < ${{ secrets.GIT_TOKEN }}
+        run: gh auth login --with-token < ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get workflows older than 30 days
         run: |
@@ -35,4 +34,3 @@ jobs:
             echo "Deleting workflow: $url"
             gh run delete --confirm "$url"
           done
-
