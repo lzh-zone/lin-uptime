@@ -14,7 +14,12 @@ jobs:
 
       - name: Install GitHub CLI manually
         run: |
-          curl -fsSL https://github.com/cli/cli/releases/latest/download/gh_2.27.0_linux_amd64.deb -o gh.deb
+          # 获取最新版本的GitHub CLI下载链接
+          VERSION=$(curl -s https://api.github.com/repos/cli/cli/releases/latest | jq -r .tag_name)
+          DOWNLOAD_URL="https://github.com/cli/cli/releases/download/$VERSION/gh_${VERSION#v}_linux_amd64.deb"
+          
+          # 下载并安装GitHub CLI
+          curl -fsSL $DOWNLOAD_URL -o gh.deb
           sudo dpkg -i gh.deb
           sudo apt-get install -f  # 安装任何缺失的依赖
 
