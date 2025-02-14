@@ -32,7 +32,7 @@ sites:
   - name: aggwrfr-nezhaagent
     url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=/usr/home/aggwrfr/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=10
   - name: aggwrfr-pm2
-    url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=bash%20/home/aggwrfr/.npm-global/bin/pm2%20resurrect%20%3E%20/dev/null%202%3E&1&timeInterval=30
+    url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=/home/aggwrfr/.npm-global/bin/pm2%20resurrect&timeInterval=30
   - name: qweqwe-nezhaagent
     url: https://qweqwe.serv00.net/7cszs7.php?pwd=figtQLJb&cronCommand=/usr/home/qweqwe/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
   - name: qweqwe-pm2
