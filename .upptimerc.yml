@@ -4,7 +4,7 @@ repo: lin-uptime # The name of this repository
 
 sites:
   - name: lzherwr-mtp
-    url: https://lzherwr.serv00.net/h98lah.php?pwd=JvnIAvsg&cronCommand=/home/lzherwr/mtg/keepalive.sh&timeInterval=10
+    url: https://lzherwr.serv00.net/h98lah.php?pwd=JvnIAvsg&cronCommand=/usr/home/lzherwr/.npm-global/bin/pm2 resurrect&timeInterval=30
     maxResponseTime: 4000
   - name: blog
     url: https://010702.xyz
