@@ -1,7 +1,7 @@
-url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=/usr/home/lzhaaer/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
+url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=pm2%20resurrect&timeInterval=5
 status: up
 code: 200
-responseTime: 776
-lastUpdated: 2025-03-24T23:19:46.262Z
+responseTime: 203
+lastUpdated: 2025-03-24T23:19:47.645Z
 startTime: 2025-02-05T08:27:37.303Z
 generator: Upptime <https://github.com/upptime/upptime>
