@@ -1,7 +1,7 @@
-url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=/usr/home/lzhaaer/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
+url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=pm2%20resurrect&timeInterval=5
 status: down
 code: 403
-responseTime: 762
-lastUpdated: 2025-06-27T23:20:16.314Z
+responseTime: 116
+lastUpdated: 2025-06-27T23:20:18.061Z
 startTime: 2025-02-05T08:27:37.303Z
 generator: Upptime <https://github.com/upptime/upptime>
