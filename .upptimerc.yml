@@ -27,7 +27,7 @@ sites:
       - 200
       - 201
       - 403
-  - name: 图床
+    - name: Image
     url: https://pic.010702.xyz/
     maxResponseTime: 8000
     expectedStatusCodes:
