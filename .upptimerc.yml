@@ -27,13 +27,8 @@ sites:
       - 200
       - 201
       - 403
-    - name: Image
+  - name: Image
     url: https://pic.010702.xyz/
-    maxResponseTime: 8000
-    expectedStatusCodes:
-      - 200
-      - 201
-      - 403
 
 
 
