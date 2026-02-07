@@ -3,15 +3,15 @@ owner: lzh-zone # Your GitHub organization or username, where this repository li
 repo: lin-uptime # The name of this repository
 
 sites:
-  - name: lzherwr-mtp
-    url: https://lzherwr.serv00.net/h98lah.php?pwd=JvnIAvsg&cronCommand=/usr/home/lzherwr/.npm-global/bin/pm2 resurrect&timeInterval=30
+  - name: LZH-ZONE主页
+    url: https://010702.xyz/
     maxResponseTime: 4000
   - name: blog
-    url: https://010702.xyz
-  - name: memo
-    url: https://memo.010702.xyz
-  - name: 0702影院
-    url: https://0702.rr.nu/
+    url: https://blog.010702.xyz
+  - name: notion
+    url: https://log.010702.xyz/
+  - name: Z-MOONTV
+    url: https://tv.linzihao.eu.org/
     maxResponseTime: 8000
   - name: 毒蛇影院
     url: https://ds.872888.xyz/
@@ -27,38 +27,9 @@ sites:
       - 200
       - 201
       - 403
-  - name: lzherwr-nezhaagent
-    url: https://lzherwr.serv00.net/h98lah.php?pwd=JvnIAvsg&cronCommand=/usr/home/lzherwr/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: aggwrfr-nezhaagent
-    url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=/usr/home/aggwrfr/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=10
-  - name: aggwrfr-pm2
-    url: http://aggwrfr.serv00.net/d4w288.php?pwd=rGz8g59k&cronCommand=/home/aggwrfr/.npm-global/bin/pm2%20resurrect&timeInterval=30
-  - name: qweqwe-nezhaagent
-    url: https://qweqwe.serv00.net/7cszs7.php?pwd=figtQLJb&cronCommand=/usr/home/qweqwe/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: qweqwe-pm2
-    url: https://qweqwe.serv00.net/7cszs7.php?pwd=figtQLJb&cronCommand=/home/qweqwe/.npm-global/bin/pm2%20resurrect&timeInterval=30
-  - name: lzhaaer-nezhaagent
-    url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=/usr/home/lzhaaer/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: zihaonb-nezhaagent
-    url: https://zihaonb.serv00.net/5n1k57.php?pwd=Za2bkDxt&cronCommand=/usr/home/zihaonb/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: lzhaaer-nezhaagent
-    url: https://lzhaaer.serv00.net/vsbez9.php?pwd=QEiK8VoK&cronCommand=pm2%20resurrect&timeInterval=5
-  - name: lzhnb-nezhaagent
-    url: https://lzhnb.serv00.net/qtdnpl.php?pwd=CIDOTBIw&cronCommand=/usr/home/lzhnb/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: xaserert-nezhaagent
-    url: https://xaserert.serv00.net/buow6x.php?pwd=bsmplJaN&cronCommand=/usr/home/xaserert/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: tianren-nezhaagent
-    url: https://tianren.serv00.net/p47ug4.php?pwd=rn0TdF0m&cronCommand=/usr/home/tianren/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: tewqvrer-nezhaagent
-    url: https://tewqvrer.serv00.net/h5k0hb.php?pwd=y5TH4gZ0&cronCommand=/usr/home/tewqvrer/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: teashder-nezhaagent
-    url: https://teashder.serv00.net/fgnv9d.php?pwd=VAwmTh3y&cronCommand=/usr/home/teashder/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: htehtegger-nezhaagent
-    url: https://htehtegger.serv00.net/kt4sdo.php?pwd=xywDLz6K&cronCommand=/usr/home/htehtegger/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: qingfengweb-nezhaagent
-    url: https://qingfengweb.serv00.net/wo38vx.php?pwd=qTs2EpI9&cronCommand=/usr/home/qingfengweb/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
-  - name: stevena-nezhaagent
-    url: https://stevena.serv00.net/7kiu7g.php?pwd=Di1VFxEk&cronCommand=/usr/home/stevena/serv00_ct8_nezha/heart_beat_entry.sh&timeInterval=5
+  - name: 图床
+    url: https://pic.010702.xyz/
+
 
 
 
@@ -79,7 +50,7 @@ sites:
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: mo.wzz.cloudns.ch
+  cname: mo.010702.xyz
   # baseUrl: /your-repo-name
   logoUrl: https://cdn.jsdelivr.net/gh/lzh-zone/pic@main/img/logo.png
   name: 小林监控
