@@ -13,7 +13,7 @@ sites:
   - name: Z-MOONTV
     url: https://tv.linzihao.eu.org/
     maxResponseTime: 8000
-  - name: 毒蛇影院
+  - name: 导航
     url: https://nav.010702.xyz/
     maxResponseTime: 8000
     expectedStatusCodes:
