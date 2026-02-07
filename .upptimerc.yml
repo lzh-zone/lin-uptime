@@ -14,7 +14,7 @@ sites:
     url: https://tv.linzihao.eu.org/
     maxResponseTime: 8000
   - name: 毒蛇影院
-    url: https://ds.872888.xyz/
+    url: https://nav.010702.xyz/
     maxResponseTime: 8000
     expectedStatusCodes:
       - 200
